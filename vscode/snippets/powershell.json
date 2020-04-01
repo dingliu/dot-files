@@ -12,7 +12,7 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-  "foldable_region": {
+  "foldable-code-region": {
     "prefix": "region",
     "body": [
       "#region ${1:Description of region}",
@@ -21,7 +21,7 @@
       "",
       "#endregion $1"
     ],
-    "description": "Ding's customized foldable region"
+    "description": "Foldable code region with description on both ends"
   },
   "function-advanced": {
     "prefix": "function-advanced",
@@ -33,8 +33,26 @@
       "\t)",
       "\tWrite-Verbose -Message 'Start: function $1'",
       "",
-      "} # $1"
+      "} # function $1"
     ],
-    "description": "Ding's customized advanced function"
+    "description": "Advanced function with default 'Write-Verbose' statement"
+  },
+  "do-until": {
+    "prefix": "do-until",
+    "body": [
+      "do { # until ($1)",
+      "\t${0:# loop body}",
+      "} until (${1:condition})"
+    ],
+    "description": "Do-Until loop"
+  },
+  "do-while": {
+    "prefix": "do-while",
+    "body": [
+      "do { # while ($1)",
+      "\t${0:# loop body}",
+      "} while (${1:condition})"
+    ],
+    "description": "Do-While loop"
   }
 }
