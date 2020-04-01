@@ -63,5 +63,14 @@
       "} # while ($1)"
     ],
     "description": "While loop"
+  },
+  "foreach-loop": {
+    "prefix": "foreach",
+    "body": [
+      "foreach ($${1:item} in $${2:collection}) {",
+      "\t${0:# loop body}",
+      "} # foreach ($$1 in $$2)"
+    ],
+    "description": "ForEach loop"
   }
 }
