@@ -37,7 +37,7 @@
     ],
     "description": "Advanced function with default 'Write-Verbose' statement"
   },
-  "do-until": {
+  "do-until-loop": {
     "prefix": "do-until",
     "body": [
       "do { # until ($1)",
@@ -46,7 +46,7 @@
     ],
     "description": "Do-Until loop"
   },
-  "do-while": {
+  "do-while-loop": {
     "prefix": "do-while",
     "body": [
       "do { # while ($1)",
@@ -54,5 +54,14 @@
       "} while (${1:condition})"
     ],
     "description": "Do-While loop"
+  },
+  "while-loop": {
+    "prefix": "while",
+    "body": [
+      "while (${1:condition}) {",
+      "\t${0:# loop body}",
+      "} # while ($1)"
+    ],
+    "description": "While loop"
   }
 }
