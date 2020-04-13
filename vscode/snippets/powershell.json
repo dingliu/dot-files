@@ -72,5 +72,41 @@
       "} # foreach ($$1 in $$2)"
     ],
     "description": "ForEach loop"
+  },
+  "pester-describe": {
+    "prefix": "Describe-Pester",
+    "body": [
+      "Describe \"${1:describe name}\" {",
+      "\t${0:# Your code goes here...}",
+      "} # Describe \"$1\""
+    ],
+    "description": "Pester Describe"
+  },
+  "pester-context": {
+    "prefix": "Context-Pester",
+    "body": [
+      "Context \"${1:context name}\" {",
+        "\t${0:# Your code goes here...}",
+        "} # Context \"$1\""
+    ],
+    "description": "Pester Context"
+  },
+  "pester-it": {
+    "prefix": "It-Pester",
+    "body": [
+      "It \"${1:it name}\" {",
+        "\t${0:# Your code goes here...}",
+        "} # It \"$1\""
+    ],
+    "description": "Pester It"
+  },
+  "pester-inModuleScope": {
+    "prefix": "InModuleScope-Pester",
+    "body": [
+      "InModuleScope \"${1:Module Name}\" {",
+        "\t${0:# Your code goes here...}",
+        "} # InModuleScope \"$1\""
+    ],
+    "description": "Pester InModuleScope"
   }
 }
