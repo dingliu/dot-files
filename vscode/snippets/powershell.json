@@ -76,9 +76,9 @@
   "pester-describe": {
     "prefix": "Describe-Pester",
     "body": [
-      "Describe \"${1:describe name}\" {",
+      "Describe \"${1:describe name}\"${2: -Tag \"${3:tagName}\"} {",
       "\t${0:# Your code goes here...}",
-      "} # Describe \"$1\""
+      "} # Describe \"$1\"$2"
     ],
     "description": "Pester Describe"
   },
