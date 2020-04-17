@@ -108,5 +108,14 @@
         "} # InModuleScope \"$1\""
     ],
     "description": "Pester InModuleScope"
+  },
+  "pester-mock": {
+    "prefix": "Mock-Pester",
+    "body": [
+      "Mock -CommandName \"${1:Command-Name}\"${2: -ModuleName \"${3:Module-Name}\"} {",
+      "\t${0:# Your code goes here...}",
+      "} # Mock \"$1\"$2"
+    ],
+    "description": "Pester Mock"
   }
 }
