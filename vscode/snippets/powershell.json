@@ -117,5 +117,14 @@
       "} # Mock \"$1\"$2"
     ],
     "description": "Pester Mock"
+  },
+  "for-loop": {
+    "prefix": "for",
+    "body": [
+      "for ($${1:i} = 0; $${1:i} -lt $${2:array}.Count; $${1:i}++) {",
+      "\t${0:# loop body}",
+      "} # for ($$1 = 0; $$1 -lt $$2.Count; $1++)"
+    ],
+    "description": "For loop"
   }
 }
