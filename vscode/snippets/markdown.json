@@ -20,6 +20,15 @@
       "| Content Cell | Content Cell  | Content Cell |",
       "| Content Cell | Content Cell  | Content Cell |"
     ],
-    "description": "A three-column table with alignment options"
+    "description": "A three-column table with alignment options."
+  },
+  "To-do list": {
+    "prefix": "mdtodo",
+    "body": [
+      "+ [ ] First task",
+      "+ [ ] Second task",
+      "+ [x] Third task (done)"
+    ],
+    "description": "A to-do list with one item completed."
   }
 }
