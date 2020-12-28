@@ -1,0 +1,54 @@
+{
+    "editor.wordWrap": "on",
+    "files.eol": "\n",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "window.menuBarVisibility": "toggle",
+    // language specific settings
+    "[shellscript]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.rulers": [ 80, 120 ],
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true
+    },
+    "[powershell]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.rulers": [ 120 ],
+        "files.encoding": "utf8",
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true
+    },
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.toc.githubCompatibility": true,
+    "editor.minimap.enabled": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "window.zoomLevel": 0,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "markdownlint.config": {
+        "default": true,
+        "MD007": { "indent": 2 }
+    },
+    "git.autofetch": true,
+    "editor.fontFamily": "'BitstreamVeraSansMono NF', Consolas, 'Courier New', monospace",
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 13,
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "powershell.powerShellDefaultVersion": "PowerShell (x64)",
+    "remote.SSH.remotePlatform": {},
+    "python.defaultInterpreterPath": "C:\\WinPython\\python-3.6.5.amd64",
+    "explorer.confirmDragAndDrop": false,
+    "azureResourceManagerTools.parameterFiles": {},
+    "azureResourceManagerTools.checkForMatchingParameterFiles": false,
+    "git.confirmSync": false,
+    "editor.renderControlCharacters": true,
+    "explorer.confirmDelete": false
+}
