@@ -16,6 +16,7 @@
     "files.trimTrailingWhitespace": true
   },
   "[powershell]": {
+    "editor.wordWrap": "off",
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "editor.rulers": [
@@ -76,5 +77,5 @@
   "azureResourceManagerTools.checkForMatchingParameterFiles": false,
   "git.confirmSync": false,
   "editor.renderControlCharacters": true,
-  "explorer.confirmDelete": false,
+  "explorer.confirmDelete": false
 }
