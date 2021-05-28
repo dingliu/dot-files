@@ -63,19 +63,22 @@
   },
   "git.autofetch": true,
   "editor.fontFamily": "'BitstreamVeraSansMono NF', Consolas, 'Courier New', monospace",
-  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.sideBar.location": "left",
   "terminal.integrated.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
   "terminal.integrated.fontSize": 13,
   "C_Cpp.intelliSenseEngineFallback": "Enabled",
   "powershell.integratedConsole.focusConsoleOnExecute": false,
   "powershell.powerShellDefaultVersion": "PowerShell (x64)",
-  "remote.SSH.remotePlatform": {},
+  "remote.SSH.remotePlatform": {
+    "k8s-mgmt": "linux"
+  },
   "python.defaultInterpreterPath": "C:\\WinPython\\python-3.6.5.amd64",
   "explorer.confirmDragAndDrop": false,
   "azureResourceManagerTools.parameterFiles": {},
   "azureResourceManagerTools.checkForMatchingParameterFiles": false,
   "git.confirmSync": false,
   "editor.renderControlCharacters": true,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "terminal.integrated.tabs.enabled": true
 }

@@ -1,0 +1,4 @@
+# Alias definitions
+alias lt='ls -ltrh | tail'
+alias rm='rm -i'
+
