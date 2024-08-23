@@ -16,7 +16,7 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
-[{*.go,Makefile}]
+[{*.go,Makefile,GNUmakefile}]
 indent_style = tab
 
 [*.{md,markdown,yaml,yml,json}]
